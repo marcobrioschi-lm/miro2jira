@@ -34,7 +34,7 @@ function generateSubstaskDefinitions(selection) {
 function publishSubstaskDefinitions(titles) {
     let subTaskDefinitions = ""
     titles.forEach(title => {
-        subTaskDefinitions += ' - ' + title + '\n'
+        subTaskDefinitions += '- ' + title + '\n'
     })
     document.getElementById('subtask-definitions').value = subTaskDefinitions
 }
